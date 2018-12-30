@@ -1,0 +1,25 @@
+CREATE TABLE getbig (
+  exercise TEXT,
+  muscle-group TEXT,
+  sets-and-reps-for-size INTEGER,
+  sets-and-reps-for-strength INTEGER
+);
+
+INSERT INTO getbig ( exercise, muscle-group, sets-and-reps-for-size, sets-and-reps-for-strength)
+VALUES (‘Curl’, ‘Arms’, 8);
+
+INSERT INTO getbig ( exercise, muscle-group, sets-and-reps-for-size, sets-and-reps-for-strength)
+VALUES (‘Dips’, ‘Arms’, 8);
+
+INSERT INTO getbig ( exercise, muscle-group, sets-and-reps-for-size, sets-and-reps-for-strength)
+VALUES (‘Bench’, ‘Chest’, 6);
+
+INSERT INTO getbig ( exercise, muscle-group, sets-and-reps-for-size, sets-and-reps-for-strength)
+VALUES (‘Deadlift’, ‘Full Body’, 6);
+
+INSERT INTO getbig ( exercise, muscle-group, sets-and-reps-for-size, sets-and-reps-for-strength)
+VALUES (‘Crunches’, ‘Abs’ 12);
+
+INSERT INTO getbig ( exercise, muscle-group, sets-and-reps-for-size, sets-and-reps-for-strength)
+VALUES (‘PullUps’, ‘Arms and Back’, 8);
+
